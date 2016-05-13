@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+
+/*--responsive--*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box2 {
+  border: solid 1px skyblue;
+  margin: 10px;
+  flex: 1;
+}
+.box3 {
+  border: solid 1px skyblue;
+  margin: 10px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  /* 768pxまでの幅の場合に適応される */
+   body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+section {
+  padding: 60px 0;
+}
+
+  
+h2 {
+  font-size: 2.2rem;
+}  
+  
+.text-center {
+  text-align: center;
+}
+
+/* skills
+------------------------------------------------------------*/
+#skills {
+  background-color: #B5495B;
+  
+}
+
+/*sikill-box1とかわける必要ない？*/
+
+#skills .skill-box1 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .skill-box2 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .skill-box3 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .container {
+  display: -webkit-flex;
+  display:         flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  padding: 30px 0;
+}
+
+#skills h2
+{
+    margin-bottom: 60px;
+    color: #fdfcf6;
+}
+
+
+
+#skills h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #268785;
+}
+
+#skills p {
+  padding: 30px;
+}
+
+footer{
+    background-color: #;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footer-box {
+  padding: 30px 0 10px;
+}
+
+.button {
+    width:100%;
+    font-weight:bold;
+    text-decoration:none;
+    margin: 10px;
+    padding: 10px;
+    color: #333;
+    border:1px solid #333;
+}
+  .container {
+    flex-direction: column;
+  }
+  
+}
+
+@media screen and (min-width: 769px) {
+/* 769px以上の幅の場合に適応される */
+    body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+section {
+  padding: 60px 0;
+}
+
+  
+h2 {
+  font-size: 2.2rem;
+}  
+  
+.text-center {
+  text-align: center;
+}
+
+/* skills
+------------------------------------------------------------*/
+#skills {
+  background-color: #B5495B;
+  
+}
+
+/*sikill-box1とかわける必要ない？*/
+
+#skills .skill-box1 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .skill-box2 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .skill-box3 {
+  background-color: #FEDFE1;
+  width: 100%;
+  margin: 5px;
+  }
+
+#skills .container {
+  display: -webkit-flex;
+  display:         flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  padding: 30px 0;
+}
+
+#skills h2
+{
+    margin-bottom: 60px;
+    color: #fdfcf6;
+}
+
+
+
+#skills h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #268785;
+}
+
+#skills p {
+  padding: 30px;
+}
+
+footer{
+    background-color: #;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footer-box {
+  padding: 30px 0 10px;
+}
+
+.button {
+    width:100%;
+    font-weight:bold;
+    text-decoration:none;
+    margin: 10px;
+    padding: 10px;
+    color: #333;
+    border:1px solid #333;
+}
+
+}
