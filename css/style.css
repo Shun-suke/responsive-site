@@ -7,39 +7,35 @@ html {
 
 
 /*--responsive--*/
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-.box2 {
-  border: solid 1px skyblue;
-  margin: 10px;
-  flex: 1;
-}
-.box3 {
-  border: solid 1px skyblue;
-  margin: 10px;
-  flex: 1;
-}
-
 @media (max-width: 768px) {
   /* 768pxまでの幅の場合に適応される */
-   body {
+ body {
   color: #4c4c4c;
   font-size: 1.4rem;
   font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  background-color: #fdfcf6; }
-
-section {
-  padding: 60px 0;
+  background-color: #FFFFFB;
 }
 
+.profile {
+  line-height: 0;
+  width: 100%;
+}
+
+h1 img {
+  width: 100%;
+  height: 608px;
+}
+  
+section {
+  padding: 60px 30px ;
+}  
   
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  color: #FFFFFB;
+  font-weight: bold;
 }  
   
 .text-center {
@@ -49,101 +45,93 @@ h2 {
 /* skills
 ------------------------------------------------------------*/
 #skills {
-  background-color: #B5495B;
-  
+  background-color: #B54434;
 }
-
-/*sikill-box1とかわける必要ない？*/
-
-#skills .skill-box1 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
-
-#skills .skill-box2 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
-
-#skills .skill-box3 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
 
 #skills .container {
-  display: -webkit-flex;
-  display:         flex;
-  justify-content: space-between;
   width: 100%;
-  height: 70%;
-  padding: 30px 0;
 }
 
-#skills h2
-{
-    margin-bottom: 60px;
-    color: #fdfcf6;
+#skills .skill-box {
+  background-color: #FFFFFB;
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px 0;
+  margin: 15px 0;
 }
 
+#skills h2 {
+  margin-bottom: 30px;
+}
 
-
-#skills h3
-{
-    font-size: 2.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #268785;
+#skills h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #562E37;
 }
 
 #skills p {
-  padding: 30px;
+  font-size: 1.2rem;
+  padding: 15px;
+  margin-top: 15px;
+  color: #52433D;
 }
 
-footer{
-    background-color: #;
-    line-height: 50px;
-    text-align: center;
+footer {
+  background-color: #FFFFFB;
+  line-height: 50px;
+  text-align: center;
 }
 
-.footer-box {
-  padding: 30px 0 10px;
+footer h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .button {
-    width:100%;
-    font-weight:bold;
-    text-decoration:none;
-    margin: 10px;
-    padding: 10px;
-    color: #333;
-    border:1px solid #333;
-}
-  .container {
-    flex-direction: column;
-  }
+  text-align: center;
+  display: inline-block; 
+  background-color: #52433D;
+  width: 200px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 35px;
+  color: #fff;
+  border: 1px solid #111;
+  border-radius: 5px;
   
+}
 }
 
 @media screen and (min-width: 769px) {
 /* 769px以上の幅の場合に適応される */
-    body {
+body {
   color: #4c4c4c;
   font-size: 1.4rem;
   font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  background-color: #fdfcf6; }
-
-section {
-  padding: 60px 0;
+  background-color: #FFFFFB;
 }
 
+.profile {
+  line-height: 0;
+  width: 100%;
+}
+
+h1 img {
+  width: 100%;
+  height: 608px;
+}
+  
+section {
+  padding: 60px 30px ;
+}  
   
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  color: #FFFFFB;
 }  
   
 .text-center {
@@ -153,77 +141,71 @@ h2 {
 /* skills
 ------------------------------------------------------------*/
 #skills {
-  background-color: #B5495B;
-  
+  background-color: #B54434;
 }
-
-/*sikill-box1とかわける必要ない？*/
-
-#skills .skill-box1 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
-
-#skills .skill-box2 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
-
-#skills .skill-box3 {
-  background-color: #FEDFE1;
-  width: 100%;
-  margin: 5px;
-  }
 
 #skills .container {
   display: -webkit-flex;
   display:         flex;
   justify-content: space-between;
   width: 100%;
-  height: 70%;
-  padding: 30px 0;
 }
 
-#skills h2
-{
-    margin-bottom: 60px;
-    color: #fdfcf6;
+#skills .skill-box {
+  background-color: #FFFFFB;
+  width: 100%;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 0 15px;
+}
+  
+#skills h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
-
-
-#skills h3
-{
-    font-size: 2.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #268785;
+#skills h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #562E37;
 }
 
 #skills p {
-  padding: 30px;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-top: 15px;
+  color: #52433D;
 }
 
-footer{
-    background-color: #;
-    line-height: 50px;
-    text-align: center;
+footer {
+  background-color: #FFFFFB;
+  line-height: 50px;
+  text-align: center;
 }
 
-.footer-box {
-  padding: 30px 0 10px;
+footer h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px;
 }
+
 
 .button {
-    width:100%;
-    font-weight:bold;
-    text-decoration:none;
-    margin: 10px;
-    padding: 10px;
-    color: #333;
-    border:1px solid #333;
+  text-align: center;
+  display: inline-block; 
+  background-color: #52433D;
+  width: 200px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 35px;
+  color: #fff;
+  border: 1px solid #111;
+  border-radius: 5px;
+  transition: background-color 0.3s,color 0.3s;
 }
 
+.button:hover {
+  color: #111;
+	background-color: rgba(255, 255, 255, 0.2);
+}
 }
